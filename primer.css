@@ -237,6 +237,22 @@ body.mostrar-fondo::before {
     background: linear-gradient(#143f06, #0f48ce);
     display: none;
 }
+.cont5 {
+    background: linear-gradient(#060c3f, #ff2bd8);
+    display: none;
+}
+.cont6 {
+    background: linear-gradient(#ff8400, #6b5f69);
+    display: none;
+}
+.cont7 {
+    background: linear-gradient(#cd09cd, #6b752a);
+    display: none;
+}
+.cont8 {
+    background: linear-gradient(#fe71d1, #12184d);
+    display: none;
+}
 .encabezado {
     display: flex;
     width: 100%;
@@ -352,11 +368,13 @@ body.mostrar-fondo::before {
     cursor: pointer;
     background-color: #011b30;
     color: #fff;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .prev:hover,
 .next:hover {
     background-color: #4646466a;
+    opacity: 0.7;
 }
 
 .prev {

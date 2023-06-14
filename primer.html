@@ -28,24 +28,20 @@
         </div>
     </div>
     <div class="botones">
-        <a href="#" class="boton1-1" onclick="mercado()">Mercado</a>
-        <a href="#" class="boton2-1" onclick="tictactoe()">TIC TAC TOE</a>
-        <a href="#" class="boton3-1" onclick="multijugador()">Take The Green</a>
-        <a href="#" class="boton4-1" onclick="tates()">TATES FC</a>
-        <a href="#" class="boton5-1" onclick="ordenadores()">CRUD Ordenadores</a>
+        <a href="#" class="boton1-1" onclick="mostrarTarjeta(1)">Mercado</a>
+        <a href="#" class="boton2-1" onclick="mostrarTarjeta(2)">TIC TAC TOE</a>
+        <a href="#" class="boton3-1" onclick="mostrarTarjeta(3)">Take The Green</a>
+        <a href="#" class="boton4-1" onclick="mostrarTarjeta(4)">TATES FC</a>
+        <a href="#" class="boton5-1" onclick="mostrarTarjeta(5)">CRUD Ordenadores</a>
     </div>
     <div class="botones">
-        <a href="" class="boton1-2" onclick="wordle()">WORDLE</a>
-        <a href="" class="boton2-2" onclick="liga()">La Liga</a>
-        <a href="" class="boton3-2" onclick="gestionbd()">Gestión BD</a>
-        <a href="" class="boton4-2" onclick="quizz()">QUIZZ</a>
-        <a href="" class="boton5-2" onclick="gestionficheros()">Gestión Ficheros</a>
+        <a href="#" class="boton1-2" onclick="mostrarTarjeta(6)">WORDLE</a>
+        <a href="#" class="boton2-2" onclick="mostrarTarjeta(7)">La Liga</a>
+        <a href="#" class="boton3-2" onclick="mostrarTarjeta(8)">Gestión BD</a>
+        <a href="#" class="boton4-2" onclick="mostrarTarjeta(9)">QUIZZ</a>
+        <a href="#" class="boton5-2" onclick="mostrarTarjeta(10)">Gestión Ficheros</a>
     </div>
-    <div class="botones">
-        <a href="" class="boton1-3" onclick="sistemas()">Packet Traccer</a>
-        <a href="" class="boton2-3" onclick="entornos()">Gestión Biblioteca</a>
-        <a href="" class="boton3-3" onclick="fol()">Primeros auxilios</a>
-    </div>
+    <!--CONTENEDOR 1-->
     <div id="contenedor1" class="container cont1">
         <div class="encabezado">
             <p>La Limeñita</p>
@@ -67,8 +63,8 @@
                 <img src="imagenes/limenita3.png">
                 <img src="imagenes/limenita4.png">
             </div>
-            <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+            <a class="prev" onclick="plusSlides1(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+            <a class="next" onclick="plusSlides1(1)"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
         </div>
     </div>
     <div class="abajo">
@@ -100,14 +96,13 @@
         </div>
         <div class="derecha">
             <div class="contimg">
-                <p>Lenguajes Implementados</p>
                 <img src="imagenes/htmlcss.png">
             </div>
         </div>
     </div>
     <button onclick="cerrarTarjeta(1)">Cerrar</button>
     </div>
-
+<!--CONTENEDOR 2-->
     <div class="container cont2" id="contenedor2">
         <div class="encabezado">
             <p>TIC TAC TOE</p>
@@ -133,8 +128,8 @@
                     <img src="imagenes/tic3.png">
                     <img src="imagenes/tic4.png">
                 </div>
-                <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                <a class="prev" onclick="plusSlides2(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+                <a class="next" onclick="plusSlides2(1)"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
         <div class="abajo">
@@ -166,14 +161,13 @@
             </div>
             <div class="derecha">
                 <div class="contimg">
-                    <p>Lenguajes Implementados</p>
                     <img src="imagenes/htmlcss.png">
                 </div>
             </div>
         </div>
         <button onclick="cerrarTarjeta(2)">Cerrar</button>
     </div>
-
+<!--CONTENEDOR 3-->
     <div class="container cont3" id="contenedor3">
         <div class="encabezado">
             <p>TAKE THE GREEN</p>
@@ -201,8 +195,8 @@
                     <img src="imagenes/tic3.png">
                     <img src="imagenes/tic4.png">
                 </div>
-                <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+                <a class="prev" onclick="plusSlides3(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+                <a class="next" onclick="plusSlides3(1)"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
         <div class="abajo">
@@ -234,14 +228,13 @@
             </div>
             <div class="derecha">
                 <div class="contimg">
-                    <p>Lenguajes Implementados</p>
                     <img src="imagenes/htmlcss.png">
                 </div>
             </div>
         </div>
         <button onclick="cerrarTarjeta(3)">Cerrar</button>
     </div>
-
+<!--CONTENEDOR 4-->
     <div class="container cont4" id="contenedor4">
         <div class="encabezado">
             <p>TATES FC</p>
@@ -266,8 +259,8 @@
                     <img src="imagenes/tates3.png">
                     <img src="imagenes/tates4.png">
                 </div>
-                <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+                <a class="prev" onclick="plusSlides4(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+                <a class="next" onclick="plusSlides4(1)"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
         <div class="abajo">
@@ -307,6 +300,317 @@
             </div>
         </div>
         <button onclick="cerrarTarjeta(4)">Cerrar</button>
+    </div>
+<!--CONTENEDOR 5-->
+    <div class="container cont5" id="contenedor5">
+        <div class="encabezado">
+            <p>CRUD Computers</p>
+            <div class="encabezado2">
+                <div class="color c1"></div>
+                <p>Lenguaje de marcas</p>
+            </div>
+            <div class="encabezado3">
+                <div class="color c2"></div>
+                <p>Bases de Datos</p>
+            </div>
+        </div>
+        <div class="medio">
+            <div class="descripcion">
+                <p>Proyecto de inicializacion a PHP</p>
+            </div>
+
+            <div class="slider">
+                <div class="slide-container sli4">
+                    <img src="imagenes/crud.png">
+                    <img src="imagenes/crud2.png">
+                    <img src="imagenes/crud3.png">
+                    <img src="imagenes/crud4.png">
+                </div>
+                <a class="prev" onclick="plusSlides5(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+                <a class="next" onclick="plusSlides5(1)"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="abajo">
+            <div class="enlaces">
+                <p>ENLACES DE INTERÉS</p>
+                <div class="enlaces2">
+                    <div class="git">
+                        <p>Github</p>
+                        <div class="git2">
+                            <img src="imagenes/github.png">
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    <div class="visita">
+                        <p>Enlace de Visita</p>
+                        <div class="git2">
+                            <i class="fa-solid fa-globe"></i>
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    <div class="yt">
+                        <p>Video YT</p>
+                        <div class="git2">
+                            <img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png">
+                            <a href=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="derecha">
+                <div class="contimg">
+                    <img src="imagenes/htmlcss.png">
+                    <img src="imagenes/js.png">
+                    <img src="imagenes/php.png">
+                    <img src="imagenes/mysql.png">
+                </div>
+            </div>
+        </div>
+        <button onclick="cerrarTarjeta(5)">Cerrar</button>
+    </div>
+    <!--CONTENEDOR 6-->
+    <div id="contenedor6" class="container cont6">
+        <div class="encabezado">
+            <p>WORDLE</p>
+            <div class="encabezado2">
+                <div class="color c3"></div>
+                <p>Programación</p>
+            </div>
+    </div>
+    <div class="medio">
+        <div class="descripcion">
+            <p>Proyecto de 1er trimestre que consistía en hacer el famoso Wordle en EclipseIde</p>
+        </div>
+        <div class="slider">
+            <div class="slide-container sli6">
+                <img src="imagenes/wordle.png">
+                <img src="imagenes/wordle2.png">
+                <img src="imagenes/wordle3.png">
+                <img src="imagenes/wordle4.png">
+            </div>
+            <a class="prev" onclick="plusSlides6(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+            <a class="next" onclick="plusSlides6(1)"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <div class="abajo">
+        <div class="enlaces">
+            <p>ENLACES DE INTERÉS</p>
+            <div class="enlaces2">
+                <div class="git">
+                    <p>Github</p>
+                    <div class="git2">
+                        <img src="imagenes/github.png">
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="visita">
+                    <p>Enlace de Visita</p>
+                    <div class="git2">
+                        <i class="fa-solid fa-globe"></i>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="yt">
+                    <p>Video YT</p>
+                    <div class="git2">
+                        <img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png">
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="derecha">
+            <div class="contimg">
+                <img src="imagenes/java.png">
+            </div>
+        </div>
+    </div>
+    <button onclick="cerrarTarjeta(6)">Cerrar</button>
+    </div>
+    <!--CONTENEDOR 7-->
+    <div id="contenedor7" class="container cont7">
+        <div class="encabezado">
+            <p>LA LIGA</p>
+            <div class="encabezado2">
+                <div class="color c3"></div>
+                <p>Programación</p>
+            </div>
+    </div>
+    <div class="medio">
+        <div class="descripcion">
+            <p>Proyecto de 1er trimestre que consistía en hacer UNA LIGA</p>
+        </div>
+        <div class="slider">
+            <div class="slide-container sli7">
+                <img src="imagenes/liga.png">
+                <img src="imagenes/liga2.png">
+                <img src="imagenes/liga3.png">
+                <img src="imagenes/liga4.png">
+            </div>
+            <a class="prev" onclick="plusSlides7(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+            <a class="next" onclick="plusSlides7(1)"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <div class="abajo">
+        <div class="enlaces">
+            <p>ENLACES DE INTERÉS</p>
+            <div class="enlaces2">
+                <div class="git">
+                    <p>Github</p>
+                    <div class="git2">
+                        <img src="imagenes/github.png">
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="visita">
+                    <p>Enlace de Visita</p>
+                    <div class="git2">
+                        <i class="fa-solid fa-globe"></i>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="yt">
+                    <p>Video YT</p>
+                    <div class="git2">
+                        <img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png">
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="derecha">
+            <div class="contimg">
+                <img src="imagenes/java.png">
+            </div>
+        </div>
+    </div>
+    <button onclick="cerrarTarjeta(7)">Cerrar</button>
+    </div>
+     <!--CONTENEDOR 8-->
+     <div id="contenedor8" class="container cont8">
+        <div class="encabezado">
+            <p>DB Management</p>
+            <div class="encabezado2">
+                <div class="color c3"></div>
+                <p>Programación</p>
+            </div>
+            <div class="encabezado3">
+                <div class="color c2"></div>
+                <p>Bases de Datos</p>
+            </div>
+    </div>
+    <div class="medio">
+        <div class="descripcion">
+            <p>Proyecto de 2o trimestre de conexion a bases de datos</p>
+        </div>
+        <div class="slider">
+            <div class="slide-container sli8">
+                <img src="imagenes/bd.png">
+                <img src="imagenes/bd.png">
+                <img src="imagenes/bd.png">
+                <img src="imagenes/bd.png">
+            </div>
+            <a class="prev" onclick="plusSlides8(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+            <a class="next" onclick="plusSlides8(1)"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <div class="abajo">
+        <div class="enlaces">
+            <p>ENLACES DE INTERÉS</p>
+            <div class="enlaces2">
+                <div class="git">
+                    <p>Github</p>
+                    <div class="git2">
+                        <img src="imagenes/github.png">
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="visita">
+                    <p>Enlace de Visita</p>
+                    <div class="git2">
+                        <i class="fa-solid fa-globe"></i>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="yt">
+                    <p>Video YT</p>
+                    <div class="git2">
+                        <img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png">
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="derecha">
+            <div class="contimg">
+                <img src="imagenes/java.png">
+            </div>
+        </div>
+    </div>
+    <button onclick="cerrarTarjeta(8)">Cerrar</button>
+    </div>
+    <!--CONTENEDOR 9-->
+    <div id="contenedor9" class="container cont9">
+        <div class="encabezado">
+            <p>QUIZZ</p>
+            <div class="encabezado2">
+                <div class="color c3"></div>
+                <p>Programación</p>
+            </div>
+            <div class="encabezado3">
+                <div class="color c2"></div>
+                <p>Bases de Datos</p>
+            </div>
+    </div>
+    <div class="medio">
+        <div class="descripcion">
+            <p>Proyecto de 2o trimestre de un cuestionario</p>
+        </div>
+        <div class="slider">
+            <div class="slide-container sli9">
+                <img src="imagenes/quizz.png">
+                <img src="imagenes/quizz.png">
+                <img src="imagenes/quizz.png">
+                <img src="imagenes/quizz.png">
+            </div>
+            <a class="prev" onclick="plusSlides9(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+            <a class="next" onclick="plusSlides9(1)"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <div class="abajo">
+        <div class="enlaces">
+            <p>ENLACES DE INTERÉS</p>
+            <div class="enlaces2">
+                <div class="git">
+                    <p>Github</p>
+                    <div class="git2">
+                        <img src="imagenes/github.png">
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="visita">
+                    <p>Enlace de Visita</p>
+                    <div class="git2">
+                        <i class="fa-solid fa-globe"></i>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="yt">
+                    <p>Video YT</p>
+                    <div class="git2">
+                        <img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png">
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="derecha">
+            <div class="contimg">
+                <img src="imagenes/java.png">
+            </div>
+        </div>
+    </div>
+    <button onclick="cerrarTarjeta(9)">Cerrar</button>
     </div>
     <footer>
         <span>COPYRIGHT © 2023 DAVID CHAVARRIA PACCHA - TODOS LOS DERECHOS RESERVADOS</span>
